@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="dist/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-slate-400">
+
+    <header class="flex flex-col items-center bg-slate-4004">
+        <h1 class="text-blue-600 text-9xl font-bold mb-10">saber nemri</h1>
+    </header>
+    <header class="flex flex-col items-stretch bg-slate-400"></header>
+        <nav class="flex flex-col items-start w-full md:w-1/4 bg-gray-500 p-4">
+            <ul class="space-y-4">
+                <li><a href="#accueil" class="text-white hover:text-gray-300">Accueil</a></li>
+                <li><a href="#projets" class="text-white hover:text-gray-300">Projets</a></li>
+                <li><a href="#contact" class="text-white hover:text-gray-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+      
+
+
+      <section class="container mx-auto my-12 p-8 bg-white rounded-lg shadow-lg border border-gray-300">
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="w-full md:w-1/2 p-6">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Bonjour</h1>
+                <p class="text-lg md:text-xl text-gray-600 mb-6">Développeur web passionné.</p>
+                <a href="#contact" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600">
+                  Merci de me Contacter
+                </a>
+            </div>
+
+            <div class="w-full md:w-1/2 h-64 md:h-auto">
+                <div  style="background-image: url(../saber.jpg);"></div>
+            </div>
+        </div>
+    </section>
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Mes Compétences</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <div class="p-6 bg-blue-500 text-white rounded-lg shadow-lg text-center">
+                <h3 class="text-xl font-bold mb-2">HTML</h3>
+                <p>Maîtrise des structures de base et sémantique web.</p>
+            </div>
+            <div class="p-6 bg-blue-500 text-white rounded-lg shadow-lg text-center">
+                <h3 class="text-xl font-bold mb-2">css</h3>
+                <p>Maîtrise des structures de base et sémantique web.</p>
+                
+            </div>      
+            <div class="p-6 bg-blue-500 text-white rounded-lg shadow-lg text-center">
+                <h3 class="text-xl font-bold mb-2">javascript</h3>
+                <p>Maîtrise des structures de base et sémantique web.</p>
+                
+            </div>  
+          </div>
+    </div>
+</section>
+<section class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Mes Projets</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="../html.png" alt="Projet 1" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold mb-2">Projet 1</h3>
+                    <p class="text-gray-700 mb-4">html</p>
+                    <a href="#" class="text-blue-500 hover:text-blue-600 font-semibold">Voir plus</a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="../css.png" alt="Projet 2" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold mb-2">Projet 2</h3>
+                    <p class="text-gray-700 mb-4">css</p>
+                    <a href="#" class="text-blue-500 hover:text-blue-600 font-semibold">Voir plus</a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="../tailwind.png" alt="Projet 3" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold mb-2">Projet 3</h3>
+                    <p class="text-gray-700 mb-4">tailwinds</p>
+                    <a href="#" class="text-blue-500 hover:text-blue-600 font-semibold">Voir plus</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+   <section class="py-16  bg-white">
+    <div class="container  px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-left mb-12">Contactez-moi</h2>
+
+        <form class="max-w-xl mx-auto bg-gray-50 p-8 rounded-lg shadow-lg">
+            <div class="mb-6">
+                <label for="name" class="block text-gray-700 font-semibold mb-2">Nom</label>
+                <input type="text"name="name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="Votre nom" required>
+            </div>
+
+            <div class="mb-6">
+                <label for="email" class="block text-gray-700 font-semibold mb-2">Adresse électronique</label>
+                <input type="email" name="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="Votre adresse email" required>
+            </div>
+
+            <div class="mb-6">
+                <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+                <textarea name="message" rows="5" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="Votre message" required></textarea>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+                    Envoyer
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+<!-- Footer -->
+<footer class="bg-gray-800 py-8">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between text-gray-400">
+        
+        <!-- Section Médias Sociaux -->
+        <div class="mb-6 md:mb-0 flex space-x-4">
+           <h1>e-mail  :   nemrisaber@gmail.com</h1>
+           <h1>linkedin  :  sabernemri</h1>
+
+        </div>
+
+        <div class="text-sm text-gray-400">
+            saber nemri
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
